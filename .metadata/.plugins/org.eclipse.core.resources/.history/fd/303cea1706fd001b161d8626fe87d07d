@@ -11,7 +11,7 @@ public class LockedMe {
 	public static void main(String[] args) 
 	{
 		int proceed=1;
-		// Variable declaration 
+		// Veriable declaration 
 		Scanner obj = new Scanner(System.in);
 		int ch;
 		
@@ -19,7 +19,6 @@ public class LockedMe {
 		
 		// Manu 
 		displayMenu();
-		
 		System.out.println("Enter your choice : ");
 		ch=Integer.parseInt(obj.nextLine());
 		

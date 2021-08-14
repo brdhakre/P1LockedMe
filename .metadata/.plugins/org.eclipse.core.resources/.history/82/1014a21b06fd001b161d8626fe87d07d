@@ -19,7 +19,6 @@ public class LockedMe {
 		
 		// Manu 
 		displayMenu();
-		
 		System.out.println("Enter your choice : ");
 		ch=Integer.parseInt(obj.nextLine());
 		

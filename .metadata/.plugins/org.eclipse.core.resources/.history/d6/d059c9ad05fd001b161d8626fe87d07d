@@ -11,7 +11,7 @@ public class LockedMe {
 	public static void main(String[] args) 
 	{
 		int proceed=1;
-		// Variable declaration 
+		// Veriable declaration 
 		Scanner obj = new Scanner(System.in);
 		int ch;
 		
@@ -19,7 +19,6 @@ public class LockedMe {
 		
 		// Manu 
 		displayMenu();
-		
 		System.out.println("Enter your choice : ");
 		ch=Integer.parseInt(obj.nextLine());
 		
@@ -41,7 +40,7 @@ public class LockedMe {
 		}while(proceed>0);
 		
 	// close scanner 
-		 	obj.close();
+		obj.close();
 	}
 
 	/**
@@ -124,6 +123,8 @@ public class LockedMe {
 						 System.out.println("Some error occurred. Please contact admin@abc.com");
 					}
 			
+				// Close Scanner Objects 
+					obj.close();
 					
 	}
 	

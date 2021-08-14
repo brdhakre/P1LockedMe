@@ -11,15 +11,14 @@ public class LockedMe {
 	public static void main(String[] args) 
 	{
 		int proceed=1;
-		// Variable declaration 
+		
+		do {
+		// Veriable declaration 
 		Scanner obj = new Scanner(System.in);
 		int ch;
 		
-		do {
-		
 		// Manu 
 		displayMenu();
-		
 		System.out.println("Enter your choice : ");
 		ch=Integer.parseInt(obj.nextLine());
 		
@@ -39,9 +38,6 @@ public class LockedMe {
 	             break;
 		}
 		}while(proceed>0);
-		
-	// close scanner 
-		 	obj.close();
 	}
 
 	/**
@@ -60,6 +56,8 @@ public class LockedMe {
 		System.out.println("4. Search a file");
 		System.out.println("5. Exit");
 		System.out.println("***********************************************************");
+
+
 	}
 	
 	/**
@@ -124,6 +122,8 @@ public class LockedMe {
 						 System.out.println("Some error occurred. Please contact admin@abc.com");
 					}
 			
+				// Close Scanner Objects 
+					obj.close();
 					
 	}
 	
