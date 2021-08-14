@@ -1,0 +1,21 @@
+package com.lockedme;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class LockedMe {
+
+	static final String folderpath="D:\\MysimplilearnPhase1Project\\LockedMeFiles";
+	
+	public static void main(String[] args) 
+	{
+
+
+		// Code for delete a file 
+		String filename;
+		Scanner obj = new Scanner(System.in);
+		
+	}
+
+}

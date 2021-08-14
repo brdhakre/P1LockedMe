@@ -42,7 +42,7 @@ public class FileManager {
 	 * @param folderpath
 	 * @param filename
 	 * @param content
-	 * @return
+	 * @return boolean
 	 */
 	
 	public static boolean createFiles(String folderpath,String filename,List<String> content)
@@ -66,6 +66,30 @@ public class FileManager {
 		}
 
 		
+	}
+	
+	/**
+	 * This method will delete the filename if it exists.
+	 * @param folderpath
+	 * @param filename
+	 * @return boolean
+	 */
+	public static boolean deleteFile(String folderpath,String filename)
+	{
+		
+		File file = new File(folderpath+"\\"+filename);
+		try
+		{
+			if(file.delete())
+			 return true;
+			else 
+			 return false;	
+		}
+		catch(Exception ex)
+		{
+			return false;
+		}
+		 
 	}
 				
 }
