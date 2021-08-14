@@ -6,11 +6,6 @@ import java.util.List;
 
 public class FileManager {
 
-	/**
-	 * This method will return all the file names from the folder.
-	 * @param folderpath
-	 * @return String array
-	 */
 	public static List<String> getAllFiles(String folderpath)
 	{
 		
@@ -31,7 +26,6 @@ public class FileManager {
         }
         
         // retrun the file list.
-        
 		return fileNames;
 		
 	}

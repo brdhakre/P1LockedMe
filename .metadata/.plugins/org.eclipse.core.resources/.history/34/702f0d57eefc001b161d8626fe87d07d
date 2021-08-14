@@ -12,13 +12,13 @@ public class LockedMe {
 		
 		// Get list of files 
 		
-	 	List<String> filenames = FileManager.getAllFiles(folderpath);
+	/*	List<String> filenames = FileManager.getAllFiles(folderpath);
 		
 		for(String f:filenames)
 		{
 			System.out.println(f);
 		}
-    
+   */
 	}
 
 }

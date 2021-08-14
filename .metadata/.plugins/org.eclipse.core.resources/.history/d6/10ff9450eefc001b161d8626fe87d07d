@@ -9,7 +9,7 @@ public class FileManager {
 	/**
 	 * This method will return all the file names from the folder.
 	 * @param folderpath
-	 * @return String array
+	 * @return 
 	 */
 	public static List<String> getAllFiles(String folderpath)
 	{
