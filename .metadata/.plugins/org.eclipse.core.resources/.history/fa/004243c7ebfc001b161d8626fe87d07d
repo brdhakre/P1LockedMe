@@ -11,10 +11,6 @@ public class LockedMe {
 		
 		List<String> filenames = FileManager.getAllFiles(folderpath);
 		
-		for(String f:filenames)
-		{
-			System.out.println(f);
-		}
 
 	}
 
