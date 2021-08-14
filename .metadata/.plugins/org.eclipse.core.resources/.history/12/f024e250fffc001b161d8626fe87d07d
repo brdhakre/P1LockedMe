@@ -14,7 +14,7 @@ public class LockedMe {
 System.out.println("***********************************************************");
 System.out.println("\t\tCompany Lockers Pvt. Ltd ");
 System.out.println("***********************************************************");
-System.out.println("1. Display all files.");
+
 	}
 
 	/**

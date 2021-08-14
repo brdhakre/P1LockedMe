@@ -11,16 +11,10 @@ public class LockedMe {
 	public static void main(String[] args) 
 	{
 
-System.out.println("***********************************************************");
-System.out.println("\t\tCompany Lockers Pvt. Ltd ");
-System.out.println("***********************************************************");
-System.out.println("1. Display all files.");
+
+
 	}
 
-	/**
-	 * 
-	 */
-	
 	public static void getallFiles()
 	{
 		
@@ -34,10 +28,6 @@ System.out.println("1. Display all files.");
 			}
 	      
 	}
-	
-	/**
-	 * 
-	 */
 	
 	public static void createFile()
 	{
@@ -84,11 +74,6 @@ System.out.println("1. Display all files.");
 					
 	}
 	
-	/**
-	 * 
-	 */
-	
-	
 	public static void deleteFile()
 	{
 
@@ -114,10 +99,6 @@ System.out.println("1. Display all files.");
 		}
 		
 	}
-	
-	/**
-	 * 
-	 */
 	
 	public static void searchFile()
 	{
