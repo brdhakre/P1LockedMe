@@ -12,7 +12,7 @@ public class LockedMe {
 	{
 
 
-		// Code for Search a file 
+		// Code for delete a file 
 		//Variable declaration 
 		String filename;
 		Scanner obj = new Scanner(System.in);
@@ -22,7 +22,7 @@ public class LockedMe {
 		filename = obj.nextLine();
 		
 		// Call delete method to delete the file.
-		boolean isDeleted = FileManager.searchFile(folderpath, filename);
+		boolean isDeleted = FileManager.deleteFile(folderpath, filename);
 		
 		if(isDeleted)
 		{

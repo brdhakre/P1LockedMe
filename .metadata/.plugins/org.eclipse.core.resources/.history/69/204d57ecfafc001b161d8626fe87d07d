@@ -76,7 +76,7 @@ public class FileManager {
 	 */
 	public static boolean deleteFile(String folderpath,String filename)
 	{
-		//Adding folder path with file name 
+		
 		File file = new File(folderpath+"\\"+filename);
 		try
 		{
@@ -91,21 +91,5 @@ public class FileManager {
 		}
 		 
 	}
-
-	/**
-	 * This method will search the filename if it exists.
-	 * @param folderpath
-	 * @param filename
-	 * @return boolean
-	 */
-	public static boolean searchFile(String folderpath,String filename)
-	{
-		
-		File file = new File(folderpath+"\\"+filename);
-
-			if(file.exists() )
-			 return true;
-			else 
-			 return false;	
-	}
+				
 }

@@ -93,7 +93,7 @@ public class FileManager {
 	}
 
 	/**
-	 * This method will search the filename if it exists.
+	 * This method will delete the filename if it exists.
 	 * @param folderpath
 	 * @param filename
 	 * @return boolean
@@ -102,10 +102,17 @@ public class FileManager {
 	{
 		
 		File file = new File(folderpath+"\\"+filename);
-
+		try
+		{
 			if(file.exists() )
 			 return true;
 			else 
 			 return false;	
+		}
+		catch(Exception ex)
+		{
+			return false;
+		}
+		 
 	}
 }
