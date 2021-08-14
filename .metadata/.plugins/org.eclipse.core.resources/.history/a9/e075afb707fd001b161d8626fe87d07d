@@ -126,16 +126,12 @@ public class FileManager {
 	{
 
 		// Create the file object.
-		// Adding folder path with file name 
+		//Adding folder path with file name 
 		File file = new File(folderpath+"\\"+filename);
 
 			if(file.exists())
-
-        // return true if file present 
 			 return true;
 			else 
-			
-			// return false if file not present 
 			 return false;	
 	}
 }

@@ -74,7 +74,7 @@ public class LockedMe {
 		
 		// Get list of files 
 		
-	 	   List<String> filenames = FileManager.getAllFiles(FOLDERPATH);
+	 	   List<String> filenames = FileManager.getAllFiles(folderpath);
 			
 			for(String f:filenames)
 			{
@@ -117,7 +117,7 @@ public class LockedMe {
 			
 			// Save the content into the files 
 			 
-			boolean isSaved = FileManager.createFiles(FOLDERPATH, fileName, content);
+			boolean isSaved = FileManager.createFiles(folderpath, fileName, content);
 			
 					if(isSaved) 
 					{
@@ -149,7 +149,7 @@ public class LockedMe {
 		filename = obj.nextLine();
 		
 		// Call delete method to delete the file.
-		boolean isDeleted = FileManager.deleteFile(FOLDERPATH, filename);
+		boolean isDeleted = FileManager.deleteFile(folderpath, filename);
 		
 		if(isDeleted)
 		{
@@ -179,7 +179,7 @@ public class LockedMe {
 		filename = obj.nextLine();
 		
 		// Call delete method to delete the file.
-		boolean isFound = FileManager.searchFile(FOLDERPATH, filename);
+		boolean isFound = FileManager.searchFile(folderpath, filename);
 		
 		if(isFound)
 		{

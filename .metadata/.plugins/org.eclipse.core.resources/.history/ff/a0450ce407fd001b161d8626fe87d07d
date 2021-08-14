@@ -131,11 +131,9 @@ public class FileManager {
 
 			if(file.exists())
 
-        // return true if file present 
+        // return true if file already present 
 			 return true;
 			else 
-			
-			// return false if file not present 
 			 return false;	
 	}
 }

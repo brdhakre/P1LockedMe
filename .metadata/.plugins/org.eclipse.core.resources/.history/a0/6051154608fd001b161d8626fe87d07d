@@ -6,20 +6,18 @@ import java.util.Scanner;
 
 public class LockedMe {
 
-	static final String FOLDERPATH="D:\\MysimplilearnPhase1Project\\LockedMeFiles";
+	static final String folderpath="D:\\MysimplilearnPhase1Project\\LockedMeFiles";
 	
 	public static void main(String[] args) 
 	{
-		
-		// Variable declaration 
 		int proceed=1;
+		// Variable declaration 
 		Scanner obj = new Scanner(System.in);
 		int ch;
 		
 		do {
 		
 		// Manu 
-			
 		displayMenu();
 		
 		System.out.println("Enter your choice : ");
@@ -66,7 +64,7 @@ public class LockedMe {
 	
 	/**
 	 * getallFiles method will call FileManager.getAllFiles method.
-	 * It will display all files present in the folder.
+	 * It will display all files presnet in the folder.
 	 */
 	
 	public static void getallFiles()
@@ -74,7 +72,7 @@ public class LockedMe {
 		
 		// Get list of files 
 		
-	 	   List<String> filenames = FileManager.getAllFiles(FOLDERPATH);
+	 	   List<String> filenames = FileManager.getAllFiles(folderpath);
 			
 			for(String f:filenames)
 			{
@@ -84,8 +82,7 @@ public class LockedMe {
 	}
 	
 	/**
-	 * createFile method will call FileManager.createFiles method 
-	 * to create or append the file.
+	 * 
 	 */
 	
 	public static void createFile()
@@ -117,7 +114,7 @@ public class LockedMe {
 			
 			// Save the content into the files 
 			 
-			boolean isSaved = FileManager.createFiles(FOLDERPATH, fileName, content);
+			boolean isSaved = FileManager.createFiles(folderpath, fileName, content);
 			
 					if(isSaved) 
 					{
@@ -132,7 +129,7 @@ public class LockedMe {
 	}
 	
 	/**
-	 * deleteFile will call FileManager.deleteFile method to delete file from the folder.
+	 * 
 	 */
 	
 	
@@ -149,7 +146,7 @@ public class LockedMe {
 		filename = obj.nextLine();
 		
 		// Call delete method to delete the file.
-		boolean isDeleted = FileManager.deleteFile(FOLDERPATH, filename);
+		boolean isDeleted = FileManager.deleteFile(folderpath, filename);
 		
 		if(isDeleted)
 		{
@@ -163,7 +160,7 @@ public class LockedMe {
 	}
 	
 	/**
-	 * searchFile will call FileManager.searchFile method to search file in the folder.
+	 * 
 	 */
 	
 	public static void searchFile()
@@ -179,7 +176,7 @@ public class LockedMe {
 		filename = obj.nextLine();
 		
 		// Call delete method to delete the file.
-		boolean isFound = FileManager.searchFile(FOLDERPATH, filename);
+		boolean isFound = FileManager.searchFile(folderpath, filename);
 		
 		if(isFound)
 		{

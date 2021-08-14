@@ -89,8 +89,7 @@ public class FileManager {
 	 */
 	public static boolean deleteFile(String folderpath,String filename)
 	{
-		// Create the file object.
-		// Adding folder path with file name 
+		//Adding folder path with file name 
 		File file = new File(folderpath+"\\"+filename);
 		
 		try
@@ -103,7 +102,7 @@ public class FileManager {
 			 return true;
 			else 
 			
-		    // return false if delete file failed. 
+		    // return flase if delete file failed. 
 			 return false;	
 		}
 		catch(Exception ex)
@@ -124,18 +123,12 @@ public class FileManager {
 	 */
 	public static boolean searchFile(String folderpath,String filename)
 	{
-
-		// Create the file object.
-		// Adding folder path with file name 
+		
 		File file = new File(folderpath+"\\"+filename);
 
-			if(file.exists())
-
-        // return true if file present 
+			if(file.exists() )
 			 return true;
 			else 
-			
-			// return false if file not present 
 			 return false;	
 	}
 }

@@ -130,12 +130,8 @@ public class FileManager {
 		File file = new File(folderpath+"\\"+filename);
 
 			if(file.exists())
-
-        // return true if file present 
 			 return true;
 			else 
-			
-			// return false if file not present 
 			 return false;	
 	}
 }

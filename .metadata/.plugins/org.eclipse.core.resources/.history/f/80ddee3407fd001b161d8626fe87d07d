@@ -64,17 +64,12 @@ public class FileManager {
 			{
 				fw.write(s+"\n");
 			}
-			
-			// Close file write.
 		 	fw.close();
-		 	
-		 	// retrun true 
 			return true;
 			
 		}
 		catch( Exception Ex)
 		{
-			// if any exception to write the file , return false.
 			return false;
 		}
 
@@ -89,28 +84,17 @@ public class FileManager {
 	 */
 	public static boolean deleteFile(String folderpath,String filename)
 	{
-		// Create the file object.
-		// Adding folder path with file name 
+		//Adding folder path with file name 
 		File file = new File(folderpath+"\\"+filename);
-		
 		try
 		{
-			
-			// Delete the file 
 			if(file.delete())
-				
-			// return true if delete file is successful. 
 			 return true;
 			else 
-			
-		    // return false if delete file failed. 
 			 return false;	
 		}
 		catch(Exception ex)
 		{
-			
-			// return false if any error during delete file.
-			
 			return false;
 		}
 		 
@@ -124,18 +108,12 @@ public class FileManager {
 	 */
 	public static boolean searchFile(String folderpath,String filename)
 	{
-
-		// Create the file object.
-		// Adding folder path with file name 
+		
 		File file = new File(folderpath+"\\"+filename);
 
-			if(file.exists())
-
-        // return true if file present 
+			if(file.exists() )
 			 return true;
 			else 
-			
-			// return false if file not present 
 			 return false;	
 	}
 }
