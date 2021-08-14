@@ -22,15 +22,15 @@ public class LockedMe {
 		filename = obj.nextLine();
 		
 		// Call delete method to delete the file.
-		boolean isFound = FileManager.searchFile(folderpath, filename);
+		boolean isDeleted = FileManager.searchFile(folderpath, filename);
 		
-		if(isFound)
+		if(isDeleted)
 		{
-			System.out.println("File is Present in the folder.");
+			System.out.println("File Deleted Successfully.");
 		}
 		else
 		{
-			System.out.println("File is not present int the folder.");
+			System.out.println("Either File not there or some access issue.");
 		}
 	}
 

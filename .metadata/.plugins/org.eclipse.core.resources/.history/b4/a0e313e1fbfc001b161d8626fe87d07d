@@ -26,11 +26,11 @@ public class LockedMe {
 		
 		if(isFound)
 		{
-			System.out.println("File is Present in the folder.");
+			System.out.println("File is Present.");
 		}
 		else
 		{
-			System.out.println("File is not present int the folder.");
+			System.out.println("Either File not there or some access issue.");
 		}
 	}
 

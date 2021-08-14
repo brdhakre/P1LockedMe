@@ -93,7 +93,7 @@ public class FileManager {
 	}
 
 	/**
-	 * This method will search the filename from the folder.
+	 * This method will search the filename if it exists.
 	 * @param folderpath
 	 * @param filename
 	 * @return boolean
