@@ -36,6 +36,7 @@ public class LockedMe {
 	             break;
 		}
 		
+		System.out.println(ch);
 	}
 
 	/**

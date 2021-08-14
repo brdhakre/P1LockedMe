@@ -12,29 +12,9 @@ public class LockedMe {
 	{
 		
 		// Veriable declaration 
-		Scanner obj = new Scanner(System.in);
-		int ch;
-		
+		Scanner obj = new Scanner(System.in)
 		// Manu 
 		displayMenu();
-		System.out.println("Enter your choice : ");
-		ch=Integer.parseInt(obj.nextLine());
-		
-		switch(ch)
-		{
-		case 1 : getallFiles();
-			     break;
-		case 2 : createFile();
-			     break;
-		case 3 : deleteFile();
-			     break;
-		case 4 : searchFile();
-			     break;
-		case 5 : System.exit(0);
-			     break;
-		 default: System.out.println("Invalid Option");
-	             break;
-		}
 		
 	}
 
@@ -54,7 +34,7 @@ public class LockedMe {
 		System.out.println("4. Search a file");
 		System.out.println("5. Exit");
 		System.out.println("***********************************************************");
-
+		System.out.println("Enter your choice : ");
 
 	}
 	

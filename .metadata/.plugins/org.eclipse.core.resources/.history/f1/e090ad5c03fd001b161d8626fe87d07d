@@ -32,10 +32,11 @@ public class LockedMe {
 			     break;
 		case 5 : System.exit(0);
 			     break;
-		 default: System.out.println("Invalid Option");
+		 default: System.out.println();
 	             break;
 		}
 		
+		System.out.println(ch);
 	}
 
 	/**

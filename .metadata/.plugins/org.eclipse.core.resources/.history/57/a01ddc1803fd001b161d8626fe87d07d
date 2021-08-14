@@ -23,19 +23,20 @@ public class LockedMe {
 		switch(ch)
 		{
 		case 1 : getallFiles();
-			     break;
-		case 2 : createFile();
-			     break;
-		case 3 : deleteFile();
-			     break;
-		case 4 : searchFile();
-			     break;
-		case 5 : System.exit(0);
-			     break;
-		 default: System.out.println("Invalid Option");
-	             break;
+			break;
+		case 2 :
+			break;
+		case 3 : 
+			break;
+		case 4 : 
+			break;
+		case 5 :
+			break;
+			default 
+			
 		}
 		
+		System.out.println(ch);
 	}
 
 	/**

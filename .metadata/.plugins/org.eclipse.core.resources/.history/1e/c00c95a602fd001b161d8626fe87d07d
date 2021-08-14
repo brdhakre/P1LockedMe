@@ -20,21 +20,6 @@ public class LockedMe {
 		System.out.println("Enter your choice : ");
 		ch=Integer.parseInt(obj.nextLine());
 		
-		switch(ch)
-		{
-		case 1 : getallFiles();
-			     break;
-		case 2 : createFile();
-			     break;
-		case 3 : deleteFile();
-			     break;
-		case 4 : searchFile();
-			     break;
-		case 5 : System.exit(0);
-			     break;
-		 default: System.out.println("Invalid Option");
-	             break;
-		}
 		
 	}
 

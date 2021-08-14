@@ -30,12 +30,13 @@ public class LockedMe {
 			     break;
 		case 4 : searchFile();
 			     break;
-		case 5 : System.exit(0);
-			     break;
-		 default: System.out.println("Invalid Option");
-	             break;
+		case 5 :
+			break;
+			default 
+			
 		}
 		
+		System.out.println(ch);
 	}
 
 	/**
