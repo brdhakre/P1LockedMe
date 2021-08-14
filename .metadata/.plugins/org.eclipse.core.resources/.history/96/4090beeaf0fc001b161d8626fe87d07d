@@ -56,15 +56,14 @@ public class FileManager {
 			{
 				fw.write(s+"\n");
 			}
-		 	fw.close();
-			return true;
+			fw.close();
 			
 		}
 		catch( Exception Ex)
 		{
-			return false;
+			
 		}
-
+		return false;
 		
 	}
 				

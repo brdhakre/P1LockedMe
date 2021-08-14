@@ -57,14 +57,13 @@ public class FileManager {
 				fw.write(s+"\n");
 			}
 		 	fw.close();
-			return true;
 			
 		}
 		catch( Exception Ex)
 		{
-			return false;
+			
 		}
-
+		return false;
 		
 	}
 				

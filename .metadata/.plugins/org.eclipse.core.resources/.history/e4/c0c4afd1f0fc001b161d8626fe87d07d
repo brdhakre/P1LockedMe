@@ -52,19 +52,13 @@ public class FileManager {
 		{
 			File fl = new File(folderpath,filename);
 			FileWriter fw = new FileWriter(fl);
-			for(String s:content)
-			{
-				fw.write(s+"\n");
-			}
-		 	fw.close();
-			return true;
 			
 		}
 		catch( Exception Ex)
 		{
-			return false;
+			
 		}
-
+		return false;
 		
 	}
 				
