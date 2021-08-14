@@ -79,7 +79,7 @@ public class LockedMe {
 	 	   
 	 	  if(filenames.size()==0)
 	 	  {
-	 		  System.out.println("No File in the directory.");
+	 		  
 	 	  }
 	 	  else
 	 	  {

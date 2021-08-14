@@ -76,19 +76,11 @@ public class LockedMe {
 		
 	 	   List<String> filenames = FileManager.getAllFiles(FOLDERPATH);
 			
-	 	   
-	 	  if(filenames.size()==0)
-	 	  {
-	 		  System.out.println("No File in the directory.");
-	 	  }
-	 	  else
-	 	  {
-	 	   System.out.println("File List is Below : \n ");
 			for(String f:filenames)
 			{
 				System.out.println(f);
 			}
-	 	  }
+	      
 	}
 	
 	/**
